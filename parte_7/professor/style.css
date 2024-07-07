@@ -1,0 +1,90 @@
+/* Unidade de Medida rem. */
+/* 1 rem é igual a 16 pixal! */
+/* Esta unidade de medida é excelente para trabalhar com responsividade. */
+
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label{
+    font-style: italic;
+}
+
+input{
+    height: 30px;
+    margin-bottom: 8px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+
+input:disabled{
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#topo{
+    text-align: center;
+}
+
+.layoutForm{
+    margin: 2rem;
+    background: #86ffee;
+    background: linear-gradient(86deg, #86ffeed8 0%, #ce86fff2 100%);
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.boxOne, .boxTwo, .columOne, .columTwo{
+    display: flex;
+    flex-direction: column;
+    padding: 2.6rem;
+}
+
+.alignBtn{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.btn{
+    width: 140px;
+    height: 40px;
+    background-color: #003b00;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #028802;
+}
+
+.boxResultados{
+    text-align: center;
+    padding: 3.2rem;
+    margin: 2rem;
+    background: #05adaf;
+    background: linear-gradient(86deg, #05adafd8 0%, #8696fff2 100%);
+}
+
+.resultadoOne{
+    display: flex;
+    flex-direction: column;
+}
+
+.titleSpan{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.resultadoTwo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
